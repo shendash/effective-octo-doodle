@@ -1,0 +1,33 @@
+ 
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: deeppink;
+    transition: background  2s linear 0.5s;
+    animation-name: h1;
+    animation-direction:normal;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 3,infinite;
+}
+h1:hover{
+    background-color: green;
+
+}
+@keyframes  h1{
+    from{background-color: white;}
+    50%{background-color: green;}
+    to{background-color: white;}
+}
+@keyframes h1{
+    from{background-color: white;}
+    50%{background-color: green;}
+    to{background-color: white;}
+}
+@keyframes  h1{
+    from{background-color: white;}
+    50%{background-color: green;}
+    to{background-color: white;}
+}
